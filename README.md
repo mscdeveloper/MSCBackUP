@@ -22,6 +22,12 @@ And, of course, I cannot be held responsible for any damage.
 For correct operation it is necessary to set permissions to the "backups" -777 directory.
 The key to correctly connect to the remote server.
 
+<img src="https://raw.githubusercontent.com/mscdeveloper/MSCBackUP/master/_TEMP_IMG/mscback_01.png" />
+<img src="https://raw.githubusercontent.com/mscdeveloper/MSCBackUP/master/_TEMP_IMG/mscback_02.png" />
+<img src="https://raw.githubusercontent.com/mscdeveloper/MSCBackUP/master/_TEMP_IMG/mscback_03.png" />
+<img src="https://raw.githubusercontent.com/mscdeveloper/MSCBackUP/master/_TEMP_IMG/mscback_04.png" />
+<img src="https://raw.githubusercontent.com/mscdeveloper/MSCBackUP/master/_TEMP_IMG/mscback_05.png" />
+<img src="https://raw.githubusercontent.com/mscdeveloper/MSCBackUP/master/_TEMP_IMG/mscback_06.png" />
 
 # MSCBackUP
 Однажды мне понадобилось перенести данные из базы данных с сервера на PHP 5.3 (MySQL 5.6). на сервер с PHP 7.3(MySQL 5.5.5-10.3.16-MariaDB).
