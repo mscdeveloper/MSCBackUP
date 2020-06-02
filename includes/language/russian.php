@@ -1,0 +1,124 @@
+<?php
+
+ $lng = (object)array();
+
+ $lng->file = 'russian';
+ $lng->language = 'Русский';
+ $lng->flag = 'flag-icon-ru';
+
+ $lng->int =(object)array();
+ $lng->int->data_for_connection = 'Данные для подключения:';
+ $lng->int->db_server           = 'Сервер базы данных';
+ $lng->int->db_user             = 'Пользователь базы данных';
+ $lng->int->db_pass             = 'Пароль базы данных';
+ $lng->int->db                  = 'База данных';
+ $lng->int->connect             = 'Подключиться';
+ $lng->int->work_type           = 'Режим работы';
+ $lng->int->save_backup         = 'Сохранение на севвер';
+ $lng->int->load_backup         = 'Воссановление с сервера';
+ $lng->int->save_backup_remote  = 'Сохранение с удаленного сервера';
+ $lng->int->save_files_remote   = 'Сохранение файлов с удаленного сервера';
+ $lng->int->connection_from     = 'Подключение:';
+ $lng->int->server_from         = 'Сервер:';
+ $lng->int->user_from           = 'Пользователь:';
+ $lng->int->pass_from           = 'Пароль:';
+ $lng->int->db_from             = 'База:';
+ $lng->int->backup_from         = 'Архив:';
+ $lng->int->backup_name         = 'Имя архива';
+ $lng->int->save                = 'Сохранить';
+ $lng->int->restore             = 'Восстановить';
+ $lng->int->remove_backup       = 'Удалить архив';
+ $lng->int->program_remote_url  = 'MSCBackUP remote URL';
+ $lng->int->program_remote_url_s= 'Удал. MSCBackUP:';
+ $lng->int->login_remote_url    = 'Логин для уд. адр.';
+ $lng->int->login_remote_url_s  = 'Логин урл:';
+ $lng->int->pass_remote_url     = 'Пароль для уд. адр.';
+ $lng->int->pass_remote_url_s   = 'Пароль урл:';
+ $lng->int->remote_db_server    = 'Удал. сервер Б.Д.';
+ $lng->int->remote_db_server_s  = 'Удал. сервер Б.Д.:';
+ $lng->int->remote_db_user      = 'Удал. пользователь Б.Д.';
+ $lng->int->remote_db_user_s    = 'Удал. пользователь Б.Д.:';
+ $lng->int->remote_db_pass      = 'Удал. Пароль Б.Д.';
+ $lng->int->remote_db_pass_s    = 'Удал. Пароль Б.Д.:';
+ $lng->int->remote_db           = 'Удал. Б.Д.';
+ $lng->int->remote_db_s         = 'Удал. Б.Д.:';
+ $lng->int->save_backup         = 'Сохранить архив';
+ $lng->int->source_dir          = 'Каталог на удаленном сервере относительно MSCBackUP';
+ $lng->int->source_dir_s        = 'Исх. каталог:';
+ $lng->int->destination_dir     = 'Каталог назначения на этом сервере';
+ $lng->int->destination_dir_s   = 'Конечный каталог:';
+ $lng->int->seve_files          = 'Сохранить файлы';
+ $lng->int->exit                = 'Выход';
+
+
+ $lng->ajax                     = (object)array();
+
+ $lng->ajax->connect_data_error = 'Данные для подключения к базе данных не найдены.';
+ $lng->ajax->connect_error      = 'Ошибка подключения к базе данных...';
+ $lng->ajax->cookie_ok          = 'Cookie успешно создан...';
+ $lng->ajax->cookie_error       = 'Ошибка создания cookie...';
+ $lng->ajax->error_create_folder= 'Ошибка создания папаки ';
+ $lng->ajax->folder             = 'Каталог';
+ $lng->ajax->not_found          = 'не найден';
+ $lng->ajax->empty              = 'пуст';
+ $lng->ajax->files_exist        = 'содержит файлы';
+ $lng->ajax->not_found          = 'не найден';
+ $lng->ajax->from_table         = 'Из таблицы';
+ $lng->ajax->save_ok            = 'упешно сохранено';
+ $lng->ajax->rows               = 'записей';
+ $lng->ajax->to_table           = 'В таблицу';
+ $lng->ajax->success_imported   = 'упешно импортировано';
+ $lng->ajax->table_rename_ok    = 'Таблица успешно переименована...';
+ $lng->ajax->signature_error    = 'Ошибка signature...';
+ $lng->ajax->files              = 'Список файлов...';
+ $lng->ajax->file_not_found     = 'Файл не найден...';
+ $lng->ajax->file_copy_ok       = 'Файл успешно скопирован...';
+ $lng->ajax->file_copy_error    = 'В процнссе копирования произошла ошибка...';
+ $lng->ajax->files_found        = 'Найдено файлов';
+ $lng->ajax->empty_post         = 'Отправлен пустой POST запрос...';
+ $lng->ajax->post_not_resolve   = 'POST запрос не обработан';
+
+ $lng->ajax->not_connect        = 'Соединение потеряно. Проверьте подключение к сети.';
+ $lng->ajax->not_found_404      = 'Искомая страница не найдена. [404]';
+ $lng->ajax->not_found_500      = 'Внутренняя ошибка сеовера. [500].';
+ $lng->ajax->json_parse_error   = 'Ошибка разбора JSON.';
+ $lng->ajax->timeout_error      = 'Превышено время ожидания.' ;
+ $lng->ajax->abort_error        = 'Ajax запрос прерван.';
+ $lng->ajax->uncaught_error     = 'Не обработанная ошибка. ';
+ $lng->ajax->ajax_error         = 'Ошибка ajax';
+ $lng->ajax->recuest_error_count= 'Колисечтво запросов с ошибкой - ';
+ $lng->ajax->wait_3_seconds     = 'Одидание 3 сек...';
+ $lng->ajax->ajax_stop_each     = 'AJAX запрос остановлен...';
+
+ $lng->logic                    =  (object)array();
+ $lng->logic->q_remove_arhive   = '\nБудет произведено удаление архива...\n\nВы хотите продолжить?';
+ $lng->logic->remove_arhive_err = 'Ошибка удаления архива:\n';
+ $lng->logic->q_overwrite_arhive= '\n\nПродолжение приведет к перезаписи архова...\n\nВы хотите продолжить?';
+ $lng->logic->backups_read_error= 'В процессе получения списка BackUp-ов произошла ошибка';
+ $lng->logic->backup            = 'Архив';
+ $lng->logic->found_s           = 'найдено';
+ $lng->logic->tables            = 'таблиц(ы)';
+ $lng->logic->found             = 'Обнаружено';
+ $lng->logic->rows              = 'записей';
+ $lng->logic->table             = 'Таблица';
+ $lng->logic->size              = 'Размер';
+ $lng->logic->datebase          = 'База Данных';
+ $lng->logic->remote            = 'Удаленная';
+ $lng->logic->out_of            = 'из';
+ $lng->logic->elapsed_time      = 'затрачено времени';
+ $lng->logic->dir               = 'дирректория';
+ $lng->logic->found_liles       = 'найдено файлов';
+ $lng->logic->file              = 'Файл';
+ $lng->logic->date              = 'Дата';
+ $lng->logic->mode              = 'Режим';
+ $lng->logic->backup_not_select = 'Архив не выбран';
+ $lng->logic->backup_choice     = 'Выбирите архив для восстановления...';
+ $lng->logic->data_for_connect  = 'Данные для подключения';
+ $lng->logic->input_data_connect= 'Введите данные для подключения у удаленному серверу';
+ $lng->logic->error_delete      = 'Ошибка удаления';
+ $lng->logic->q_delete_archive  = 'Вы уверены в том, что хотите удалить архив';
+ $lng->logic->supplemented_by   = 'дополнено';
+ $lng->logic->pcs               = 'шт.';
+ $lng->logic->correction        = 'Коррекция';
+
+?>
